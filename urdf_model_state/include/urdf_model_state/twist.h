@@ -60,7 +60,6 @@ public:
     this->linear.clear();
     this->angular.clear();
   };
-  void initXml(TiXmlElement* xml);
 };
 
 }
