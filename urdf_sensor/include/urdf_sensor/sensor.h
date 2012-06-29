@@ -64,7 +64,6 @@
 #include <string>
 #include <vector>
 #include <map>
-#include <tinyxml.h>
 #include <boost/shared_ptr.hpp>
 #include <boost/weak_ptr.hpp>
 #include "urdf_model/pose.h"
@@ -77,14 +76,16 @@ class VisualSensor
 {
 public:
   enum {CAMERA, RAY} type;
-  virtual void initXml(TiXmlElement *) = 0;
+  virtual ~VisualSensor(void)
+  {
+  }
 };
 
 class Camera : public VisualSensor
 {
 public:
   Camera() { this->clear(); };
-  double width, height;
+  unsigned int width, height;
   /// format is optional: defaults to R8G8B8), but can be
   /// (L8|R8G8B8|B8G8R8|BAYER_RGGB8|BAYER_BGGR8|BAYER_GBRG8|BAYER_GRBG8)
   std::string format;
@@ -101,18 +102,17 @@ public:
     near = 0;
     far = 0;
   };
-  void initXml(TiXmlElement *);
 };
 
 class Ray : public VisualSensor
 {
 public:
   Ray() { this->clear(); };
-  double horizontal_samples;
+  unsigned int horizontal_samples;
   double horizontal_resolution;
   double horizontal_min_angle;
   double horizontal_max_angle;
-  double vertical_samples;
+  unsigned int vertical_samples;
   double vertical_resolution;
   double vertical_min_angle;
   double vertical_max_angle;
@@ -129,7 +129,6 @@ public:
     vertical_min_angle = 0;
     vertical_max_angle = 0;
   };
-  void initXml(TiXmlElement *);
 };
 
 
@@ -155,13 +154,12 @@ public:
   /// Parent link element name.  A pointer is stored in parent_link_.
   std::string parent_link_name;
 
-  void initXml(TiXmlElement* config);
-
   boost::shared_ptr<Link> getParent() const
   {return parent_link_.lock();};
 
-  void setParent(boost::shared_ptr<Link> parent);
-
+  void setParent(boost::shared_ptr<Link> parent)
+  {  this->parent_link_ = parent; }
+  
   void clear()
   {
     this->name.clear();
