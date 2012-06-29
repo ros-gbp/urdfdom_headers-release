@@ -1,6 +1,6 @@
 <stack>
   <name>urdfdom_headers</name>
-  <version>0.1.5</version>
+  <version>0.2.0</version>
   <description>Header files for core data structures used by URDF parsers</description>
   <author email="johnhsu@willowgarage.com">John Hsu</author>
   <maintainer email="johnhsu@willowgarage.com">John Hsu</maintainer>
@@ -10,8 +10,6 @@
 
   <build_depends>boost</build_depends>
   <build_depends>cmake</build_depends>
-  <build_depends>tinyxml</build_depends>
 
   <depends>boost</depends>
-  <depends>tinyxml</depends>
 </stack>
