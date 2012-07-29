@@ -2,12 +2,12 @@ Source: ros-groovy-urdfdom-headers
 Section: misc
 Priority: extra
 Maintainer: John Hsu <johnhsu@willowgarage.com>
-Build-Depends: debhelper (>= 7.0.50~), libboost1.46-all-dev,cmake
+Build-Depends: debhelper (>= 7.0.50~), cmake,libboost-all-dev
 Homepage: http://www.ros.org/wiki/urdf
 Standards-Version: 3.9.2
 
 Package: ros-groovy-urdfdom-headers
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libboost1.46-all-dev
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev
 Description: Header files for core data structures used by URDF parsers
 
