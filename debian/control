@@ -1,0 +1,13 @@
+Source: ros-fuerte-urdfdom-headers
+Section: misc
+Priority: extra
+Maintainer: John Hsu <hsu@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-fuerte-console-bridge,libtinyxml-dev,libboost1.40-all-dev,cmake
+Homepage: http://ros.org/wiki/urdf
+Standards-Version: 3.9.2
+
+Package: ros-fuerte-urdfdom-headers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-fuerte-console-bridge,libtinyxml-dev,libboost1.40-all-dev
+Description: C++ Headers for URDF
+
