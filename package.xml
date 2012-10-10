@@ -3,18 +3,18 @@
   <name>urdfdom_headers</name>
   <version>0.2.1</version>
   <description></description>
-  <maintainer email="______FILL_ME_OUT______">______FILL_ME_OUT______</maintainer>
-  <license>______FILL_ME_OUT______</license>
+  <maintainer email="hsu@osrfoundation.org">John Hsu</maintainer>
+  <license>BSD</license>
 
-  <url type="website">______FILL_ME_OUT______</url>
-  <url type="bugtracker">______FILL_ME_OUT______</url>
-  <url type="repository">______FILL_ME_OUT______</url>
+  <url type="website">http://ros.org/wiki/urdf</url>
+  <url type="bugtracker">https://code.ros.org/trac/ros-pkg</url>
+  <url type="repository">http://kforge.ros.org/robotmodel/urdfdom_headers</url>
 
-  <author>______FILL_ME_OUT______</author>
+  <author>Wim Meeussen, John Hsu</author>
 
-  <build_depend>______FILL_ME_OUT______</build_depend>
+  <build_depend>console_bridge</build_depend>
 
   <buildtool_depend>cmake</buildtool_depend>
 
-  <run_depend>______FILL_ME_OUT______</run_depend>
+  <run_depend>console_bridge</run_depend>
 </package>
