@@ -2,12 +2,12 @@ Source: ros-fuerte-urdfdom-headers
 Section: misc
 Priority: extra
 Maintainer: John Hsu <hsu@osrfoundation.org>
-Build-Depends: debhelper (>= 7.0.50~), libboost1.46-all-dev,libtinyxml-dev,cmake,ros-fuerte-console-bridge
+Build-Depends: debhelper (>= 7.0.50~), ros-fuerte-console-bridge,libtinyxml-dev,cmake,libboost-all-dev
 Homepage: http://ros.org/wiki/urdf
 Standards-Version: 3.9.2
 
 Package: ros-fuerte-urdfdom-headers
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libboost1.46-all-dev,libtinyxml-dev,ros-fuerte-console-bridge
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-fuerte-console-bridge,libtinyxml-dev,libboost-all-dev
 Description: 
 
