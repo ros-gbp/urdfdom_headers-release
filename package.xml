@@ -13,8 +13,13 @@
   <author>Wim Meeussen, John Hsu</author>
 
   <build_depend>console_bridge</build_depend>
+  <run_depend>console_bridge</run_depend>
+
+  <build_depend>boost</build_depend>
+  <run_depend>boost</run_depend>
+
+  <build_depend>tinyxml</build_depend>
+  <run_depend>tinyxml</run_depend>
 
   <buildtool_depend>cmake</buildtool_depend>
-
-  <run_depend>console_bridge</run_depend>
 </package>
