@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>urdfdom_headers</name>
+  <version>0.2.1</version>
+  <description></description>
+  <maintainer email="______FILL_ME_OUT______">______FILL_ME_OUT______</maintainer>
+  <license>______FILL_ME_OUT______</license>
+
+  <url type="website">______FILL_ME_OUT______</url>
+  <url type="bugtracker">______FILL_ME_OUT______</url>
+  <url type="repository">______FILL_ME_OUT______</url>
+
+  <author>______FILL_ME_OUT______</author>
+
+  <build_depend>______FILL_ME_OUT______</build_depend>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <run_depend>______FILL_ME_OUT______</run_depend>
+</package>
