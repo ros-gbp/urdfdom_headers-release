@@ -12,8 +12,9 @@
   <author>Wim Meeussen</author>
   <author>John Hsu</author>
 
+  <buildtool_depend>catkin</buildtool_depend>
+
   <build_depend>boost</build_depend>
-  <build_depend>catkin</build_depend>
   <build_depend>console_bridge</build_depend>
   <build_depend>tinyxml</build_depend>
 
