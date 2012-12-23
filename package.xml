@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>urdfdom_headers</name>
-  <version>0.2.1</version>
+  <version>0.2.2</version>
   <description>C++ Headers for URDF</description>
   <maintainer email="hsu@osrfoundation.org">John Hsu</maintainer>
   <license>BSD</license>
