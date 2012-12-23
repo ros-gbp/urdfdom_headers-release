@@ -1,0 +1,12 @@
+Source: ros-groovy-urdfdom-headers
+Section: misc
+Priority: extra
+Maintainer: John Hsu <hsu@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), libboost1.46-all-dev,ros-groovy-catkin,libtinyxml-dev,ros-groovy-console-bridge
+Homepage: http://ros.org/wiki/urdf
+Standards-Version: 3.9.2
+
+Package: ros-groovy-urdfdom-headers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost1.46-all-dev,libtinyxml-dev,ros-groovy-console-bridge
+Description: C++ Headers for URDF
