@@ -34,7 +34,7 @@ tracks:
     ros_distro: groovy
     vcs_type: hg
     vcs_uri: https://bitbucket.org/osrf/urdfdom_headers
-    version: :{auto}
+    version: :{ask}
   hydro:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
