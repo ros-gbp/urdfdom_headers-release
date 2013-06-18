@@ -1,0 +1,12 @@
+Source: ros-hydro-urdfdom-headers
+Section: misc
+Priority: extra
+Maintainer: John Hsu <hsu@osrfoundation.org>, Ioan Sucan <isucan@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), libboost-all-dev, libtinyxml-dev, ros-hydro-catkin, ros-hydro-console-bridge
+Homepage: http://ros.org/wiki/urdf
+Standards-Version: 3.9.2
+
+Package: ros-hydro-urdfdom-headers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libtinyxml-dev, ros-hydro-catkin, ros-hydro-console-bridge
+Description: C++ Headers for URDF
