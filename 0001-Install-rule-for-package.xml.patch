@@ -1,4 +1,4 @@
-From 2fb5bf4387ebe53fd17f2412e6e81e75df22d68c Mon Sep 17 00:00:00 2001
+From 41d51cfea1b7a748e660e08cfce6c28639853622 Mon Sep 17 00:00:00 2001
 From: William Woodall <wjwwood@gmail.com>
 Date: Tue, 12 Mar 2013 16:35:56 -0700
 Subject: [PATCH] Install rule for package.xml
@@ -8,7 +8,7 @@ Subject: [PATCH] Install rule for package.xml
  1 file changed, 3 insertions(+)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 261b9a2..00e2d17 100644
+index 4d05efc..c090c78 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -34,4 +34,7 @@ if (NOT MSVC)
@@ -20,5 +20,5 @@ index 261b9a2..00e2d17 100644
 +
  message(STATUS "Configuration successful. Type make install to install urdfdom_headers.")
 -- 
-1.7.9.5
+1.7.10.4
 
