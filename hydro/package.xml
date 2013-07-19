@@ -24,4 +24,9 @@
   <run_depend>catkin</run_depend>
   <run_depend>console_bridge</run_depend>
   <run_depend>tinyxml</run_depend>
+  
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+  
 </package>
