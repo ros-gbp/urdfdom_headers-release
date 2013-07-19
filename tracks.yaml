@@ -49,7 +49,7 @@ tracks:
     last_version: 0.2.3
     name: urdfdom_headers
     patches: hydro
-    release_inc: '0'
+    release_inc: '1'
     release_repo_url: null
     release_tag: :{version}
     ros_distro: hydro
