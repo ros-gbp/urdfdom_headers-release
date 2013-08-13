@@ -14,8 +14,8 @@ tracks:
     release_inc: -1
     release_tag: :{version}
     ros_distro: groovy
-    vcs_type: hg
-    vcs_uri: https://bitbucket.org/osrf/urdfdom_headers
+    vcs_type: git
+    vcs_uri: https://github.com/ros/urdfdom_headers
     version: :{auto}
   groovy:
     actions:
@@ -33,8 +33,8 @@ tracks:
     release_inc: '2'
     release_tag: :{version}
     ros_distro: groovy
-    vcs_type: hg
-    vcs_uri: https://bitbucket.org/osrf/urdfdom_headers
+    vcs_type: git
+    vcs_uri: https://github.com/ros/urdfdom_headers
     version: :{ask}
   hydro:
     actions:
@@ -53,6 +53,6 @@ tracks:
     release_repo_url: null
     release_tag: :{version}
     ros_distro: hydro
-    vcs_type: hg
-    vcs_uri: https://bitbucket.org/osrf/urdfdom_headers
+    vcs_type: git
+    vcs_uri: https://github.com/ros/urdfdom_headers
     version: :{ask}
