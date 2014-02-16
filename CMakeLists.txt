@@ -34,7 +34,4 @@ if (NOT MSVC)
   install(FILES ${pkg_conf_file} DESTINATION lib/pkgconfig/ COMPONENT pkgconfig)
 endif()
 
-# Install catkin package.xml
-install(FILES package.xml DESTINATION share/urdfdom_headers)
-
 message(STATUS "Configuration successful. Type make install to install urdfdom_headers.")
