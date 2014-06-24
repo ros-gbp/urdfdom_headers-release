@@ -2,7 +2,7 @@
 <package>
   <name>urdfdom_headers</name>
   <version>0.3.0</version>
-  <description>C++ Headers for URDF</description>
+  <description>Temporary package redirecting to C++ Headers for URDF. Use liburdfdom-headers-dev directly instead of this package. </description>
   <maintainer email="isucan@google.com">Ioan Sucan</maintainer>
   <maintainer email="hsu@osrfoundation.org">John Hsu</maintainer>
   <license>BSD</license>
@@ -14,14 +14,9 @@
   <author>John Hsu</author>
   <author>Ioan Sucan</author>
 
-  <build_depend>boost</build_depend>
-  <build_depend>console_bridge</build_depend>
-  <build_depend>tinyxml</build_depend>
+  <build_depend>cmake</build_depend>
 
-  <run_depend>boost</run_depend>
-  <run_depend>catkin</run_depend>
-  <run_depend>console_bridge</run_depend>
-  <run_depend>tinyxml</run_depend>
+  <run_depend>liburdfdom-headers-dev</run_depend>
   
   <export>
     <build_type>cmake</build_type>
