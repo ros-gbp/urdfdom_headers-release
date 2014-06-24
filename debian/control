@@ -1,0 +1,12 @@
+Source: ros-indigo-urdfdom-headers
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@google.com>
+Build-Depends: debhelper (>= 9.0.0), cmake
+Homepage: http://wiki.ros.org/urdf
+Standards-Version: 3.9.2
+
+Package: ros-indigo-urdfdom-headers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liburdfdom-headers-dev
+Description: Temporary package redirecting to C++ Headers for URDF. Use liburdfdom-headers-dev directly instead of this package.
